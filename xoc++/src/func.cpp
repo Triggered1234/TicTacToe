@@ -1135,20 +1135,5 @@ void wlratioSort(string a[][3]) //Filtering leaderboard by WIN/LOSS Ratio
 }
 
 
-int /* */ abc
-void wlratioSort(string a[][3]) //Filtering leaderboard by WIN/LOSS Ratio
 
-
-    bool ok=true
-    while (GetAsyncKeyState(VK_RETURN)){}
-    string filename="playerList.txt"
-    int totalPlayers;
-    string name
-    int wins,losses,draws
-
-    float wlratio;
-    ifstream playerListin;
-    playerListin.open(filename.c_str());
-    playerListin>>totalPlayers;
-    Player* p= new Player[totalPlayers+1];
 
